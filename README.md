@@ -20,6 +20,7 @@
 9. How to handle HTTP ERRORS
 10. use http errors -> http-errors
 11. How to secure API -> xss-clean, express-rate-limit 
-
+12. Environment variable & .gitignore 
+13. MVC Architecture 
 
 

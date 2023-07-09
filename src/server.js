@@ -1,5 +1,10 @@
-const app=require('./app');
 
-app.listen(3001, () => {
-  console.log("server is running at http://localhost:3001");
+const app=require('./app');
+const {sereverPort} =require('./secret');
+
+
+
+
+app.listen(sereverPort, () => {
+  console.log(`server is running at http://localhost:${sereverPort}`);
 });
