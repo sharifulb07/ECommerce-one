@@ -24,7 +24,25 @@ app.get('/', (req,res)=>{
 app.get('/test', (req,res)=>{
 
     res.status(200).send({
-        message:"api is working fine  ",
+        message:"api Testing is working fine  ",
+    });
+})
+app.post('/test', (req,res)=>{
+
+    res.status(200).send({
+        message:"Post Method(Api Testing is working fine)  ",
+    });
+})
+app.put('/test', (req,res)=>{
+
+    res.status(200).send({
+        message:"Put Method(Api Testing is working fine)  ",
+    });
+})
+app.delete('/test', (req,res)=>{
+
+    res.status(200).send({
+        message:"Delete Method(Api Testing is working fine)  ",
     });
 })
 
