@@ -16,4 +16,7 @@
 5. nodemon and morgan package 
 6. API testing with Postman
 7. middleware
+8. Express Error Handling Middleware
+9. How to handle HTTP ERRORS
+10. use http errors
 
