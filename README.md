@@ -13,10 +13,13 @@
 2.Environment setup
 3.Create express server
 4. HTTP request & response
-5. nodemon and morgan package 
+5. nodemon and morgan package ->nodemon and morgan
 6. API testing with Postman
 7. middleware
-8. Express Error Handling Middleware
+8. Express Error Handling Middleware ->body-parser
 9. How to handle HTTP ERRORS
-10. use http errors
+10. use http errors -> http-errors
+11. How to secure API -> xss-clean, express-rate-limit 
+
+
 
